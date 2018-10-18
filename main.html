@@ -6,18 +6,22 @@
 		<link rel="icon" href="res/unicide.ico">
 		<script src="lib/coffeescript.js"></script>
 		<style>
-			.area {margin: 5px; width: 50%; display:flex; flex-flow: column; overflow: auto}
-			.lit {background: rgba(33, 33, 33, 0.5); resize: none; flex: 1 0; box-shadow: 0px 0px 5px darkslategray}
-			.tip {text-align: center; width: 25%; min-height: auto;}
+			@font-face {font-family: Roboto; src: url(res/3966.ttf)}
+
 			a {text-decoration: none; text-shadow: -1px -1px 2px black; font-style: italic; font-weight: bold;}
 			a:hover {text-shadow: 0px 0px 2px orange, 0 0 1em red; transition: .5s}
 			textarea:focus{outline: none;}
+
+			.bar {left: 5px; right: 5px;  font-family: Roboto; font-size: 14px;}
+			.area {margin: 5px; width: 50%; display:flex; flex-flow: column; overflow: auto}
+			.lit {background: rgba(33, 33, 33, 0.5); resize: none; flex: 1 0; box-shadow: 0px 0px 5px darkslategray}
+			.tip {text-align: center; width: 25%; min-height: auto;}
 		</style>
 	</head>
 
 	<body style="margin: 0; background: #0f0f0f -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px); -webkit-background-size: 100% 2px; overflow: hidden; user-select: none; -moz-user-select: none; -ms-user-select: none;">
 		<div id="appspace" style="position:absolute; top: 0; bottom: 0; display:flex; width: 100%; visibility: hidden; overflow: auto; flex-flow: column;">
-			<div style="background: goldenrod; text-align: center; left: 5px; right: 5px; border-right: 2px dotted black; text-shadow: 0px 0px 3px gray">• [<a href="https://github.com/Guevara-chan/Unicide" target="_blank"  style="color: blanchedalmond">Unicide</a>]: forced evolution for unicellular entities •</div>
+			<div class="bar" style="background: goldenrod; text-align: center; border-right: 2px dotted black; text-shadow: 0px 0px 3px #525222">• [<a href="https://github.com/Guevara-chan/Unicide" target="_blank"  style="color: blanchedalmond">Unicide</a>]: forced evolution for unicellular entities •</div>
 			<div style="display: flex; height: 100%">
 				<div class="area" style="margin-top: 0">
 					<textarea id="uni" class="lit" style="border: 2px solid goldenrod; border-top: 0; color: gold; z-index: 2"></textarea>
@@ -32,7 +36,7 @@
 					<textarea id="pluri" class="lit" style="border: 2px solid darkturquoise; border-bottom: 0; color: cyan;" readonly></textarea>
 				</div>
 			</div>
-			<div style="text-shadow: 0px 0px 3px green; background: darkturquoise; left: 5px; right: 5px; text-align: center; border-left: 2px dotted black">• Developed in 2018 by [<a href="http://vk.com/guevara_chan" target="_blank" style="color: #DFFEFE">Victoria A. Guevara</a>] •</div>
+			<div class="bar"  style="text-shadow: 0px 0px 3px #222222; background: darkturquoise; text-align: center; border-left: 2px dotted black">• Developed in 2018 by [<a href="http://vk.com/guevara_chan" target="_blank" style="color: #DFFEFE">Victoria A. Guevara</a>] •</div>
 		</div>
 		<script type="text/coffeescript" src="./ui.coffee"></script>
 	</body>

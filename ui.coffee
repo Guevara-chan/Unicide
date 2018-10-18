@@ -1,4 +1,4 @@
-# ~Forced evolution for unicelluar entities~
+# ~Forced evolution for unicellular entities~
 # ==Extnesion methods==
 Function::getter = (name, proc)	-> Reflect.defineProperty @prototype, name, {get: proc, configurable: true}
 Function::setter = (name, proc)	-> Reflect.defineProperty @prototype, name, {set: proc, configurable: true}
