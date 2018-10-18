@@ -1,5 +1,5 @@
 # ⋮Sum⋮
-__Unicide__ is an avant-garde text formatter, developed to assist pluricellular entites with understanding of speech patterns from [Tinder](https://tinder.com/), [Badoo](https://badoo.com), [Lenorado Dai Winchic](https://vk.com/dayvinchik) and other places, where different animal kingdoms collide.  
+__Unicide__ is an avant-garde HTML5 text formatter, developed to assist pluricellular entites with understanding of speech patterns from [Tinder](https://tinder.com/), [Badoo](https://badoo.com), [Lenorado Dai Winchic](https://vk.com/dayvinchik) and other places, where different animal kingdoms collide.  
 Made in frustration for frustration.
 
 # ⋮Featuræ⋮
