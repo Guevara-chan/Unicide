@@ -1,2 +1,2 @@
 # ⋮Sum⋮
-_Unicide_ is an avant-garde text fromatter, made to assist pluricellular entites with understands speech patterns from [Tinder](https://tinder.com/)/[Badoo](https://badoo.com).
+_Unicide_ is an avant-garde text formatter, made to assist pluricellular entites with understands speech patterns from [Tinder](https://tinder.com/)/[Badoo](https://badoo.com).
