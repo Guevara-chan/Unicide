@@ -1,5 +1,5 @@
 # ⋮Sum⋮
-__Unicide__ is an avant-garde text formatter, made to assist pluricellular entites with understanding of speech patterns from [Tinder](https://tinder.com/), [Badoo](https://badoo.com), [Lenorado Dai Winchic](https://vk.com/dayvinchik) and other similar stuff. Made шт frustration for frustration.
+__Unicide__ is an avant-garde text formatter, made to assist pluricellular entites with understanding of speech patterns from [Tinder](https://tinder.com/), [Badoo](https://badoo.com), [Lenorado Dai Winchic](https://vk.com/dayvinchik) and other similar stuff. Made in frustration for frustration.
 
 # ⋮Featuræ⋮
 * Every sentence ends with dot or _one_ other corresponding temrination symbol.
