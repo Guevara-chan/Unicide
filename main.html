@@ -7,12 +7,13 @@
 		<script src="lib/coffeescript.js"></script>
 		<style>
 			@font-face {font-family: Roboto; src: url(res/3966.ttf)}
+			@font-face {font-family: Oswald; src: url(res/Oswald-Regular.ttf)}
 
-			a {text-decoration: none; text-shadow: -1px -1px 2px black; font-style: italic; font-weight: bold;}
+			a {text-decoration: none; text-shadow: -1px -1px 2px black;  font-weight: bold; font-size: 15px;}
 			a:hover {text-shadow: 0px 0px 2px orange, 0 0 1em red; transition: .5s}
 			textarea:focus{outline: none;}
 
-			.bar {left: 5px; right: 5px;  font-family: Roboto; font-size: 14px;}
+			.bar {left: 5px; right: 5px; font-family: Roboto; font-size: 14px;}
 			.area {margin: 5px; width: 50%; display:flex; flex-flow: column; overflow: auto}
 			.lit {background: rgba(33, 33, 33, 0.5); resize: none; flex: 1 0; box-shadow: 0px 0px 5px darkslategray}
 			.tip {text-align: center; width: 25%; min-height: auto;}
@@ -21,17 +22,17 @@
 
 	<body style="margin: 0; background: #0f0f0f -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px); -webkit-background-size: 100% 2px; overflow: hidden; user-select: none; -moz-user-select: none; -ms-user-select: none;">
 		<div id="appspace" style="position:absolute; top: 0; bottom: 0; display:flex; width: 100%; visibility: hidden; overflow: auto; flex-flow: column;">
-			<div class="bar" style="background: goldenrod; text-align: center; border-right: 2px dotted black; text-shadow: 0px 0px 3px #525222">• [<a href="https://github.com/Guevara-chan/Unicide" target="_blank"  style="color: blanchedalmond">Unicide</a>]: forced evolution for unicellular entities •</div>
+			<div class="bar" style="background: goldenrod; text-align: center; border-right: 2px dotted black; text-shadow: 0px 0px 3px #525222">• [<a href="https://github.com/Guevara-chan/Unicide" target="_blank" style="color: blanchedalmond">Unicide</a>]: forced evolution for unicellular entities •</div>
 			<div style="display: flex; height: 100%">
 				<div class="area" style="margin-top: 0">
 					<textarea id="uni" class="lit" style="border: 2px solid goldenrod; border-top: 0; color: gold; z-index: 2"></textarea>
 					<center>
-						<div class="tip" style="background: goldenrod; color: blanchedalmond; text-shadow: 1px 1px 2px gray, 0 0 1em red; border-radius: 0px 0px 10px 10px; border-top: 1px dashed white; "><b>⦻⋮<b style="color:#440000; text-shadow: 0px 0px 3px gray;">UNI</b>⋮⦻</b></div>
+						<div class="tip" style="background: goldenrod; color: blanchedalmond; text-shadow: 1px 1px 2px gray, 0 0 1em red; border-radius: 0px 0px 10px 10px; border-top: 1px dashed white; "><b>⦻⋮<b style="color: #440000; text-shadow: 0px 0px 3px gray; font-family: Oswald;">UNI</b>⋮⦻</b></div>
 					</center>
 				</div>
 				<div class="area" style="margin-bottom: 0">
 					<center>
-						<div class="tip" style="background: darkturquoise; color: #DFFEFE; text-shadow: 1px -1px 2px darkgray, 0 0 1em slategray; border-radius: 10px 10px 0px 0px; border-bottom: 1px dashed white">🞇⋮<b style="color:#004444; text-shadow: 0px 0px 3px gray;">PLURI</b>⋮🞇</div>
+						<div class="tip" style="background: darkturquoise; color: #DFFEFE; text-shadow: 1px -1px 2px darkgray, 0 0 1em slategray; border-radius: 10px 10px 0px 0px; border-bottom: 1px dashed white">🞇⋮<b style="color:#004444; text-shadow: 0px 0px 3px gray; font-family: Oswald;">PLURI</b>⋮🞇</div>
 					</center>
 					<textarea id="pluri" class="lit" style="border: 2px solid darkturquoise; border-bottom: 0; color: cyan;" readonly></textarea>
 				</div>
