@@ -7,7 +7,7 @@ Made with [CoffeeScript 2](http://coffeescript.com/v2/), frustration and love (f
 * Every closing bracket should be precended with opening one.
 * There are single space before comma, not after.
 * First letter of every sentence is capitalized.
-* [Codepen](http://codepen.io) ready.
+* Mostly [Codepen](http://codepen.io)-ready.
 
 # ⋮Compatibility⋮
 __Unicide__ was best tested with _Chrome 70_ and [Electron](https://electronjs.org/), which is used to develop it.  
