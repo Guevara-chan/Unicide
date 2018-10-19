@@ -10,7 +10,7 @@ class UI
 	constructor: () ->
 		@[elem] = document.getElementById(elem) for elem in ['uni', 'pluri', 'appspace']
 		@uni.addEventListener 'input', (e) => @evolve()
-		@uni.value = @storage
+		@uni.value = @storage ? ""
 		@evolve()
 		@appspace.style.visibility = 'visible'
 		@uni.focus()
@@ -26,7 +26,6 @@ class UI
 				when char in '.?!'							# Dot/Exclamation/Question.
 					out = if last_out isnt char then char else ''
 				when char in '\n'							# Line break.
-					console.log last_out[0]
 					out = (if last_out[0] in "\n.?!" then "" else ".") + char
 				when char is '('							# Opening bracket.
 					brackets++
