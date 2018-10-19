@@ -29,16 +29,16 @@ class UI
 					out = (if last_out[0] in "\n.?!" then "" else ".") + char
 				when char is '('							# Opening bracket.
 					brackets++
-					out = char
+					out = " " + char
 				when char is ')'							# Closing bracket.
-					out = if brackets then brackets--; char else ''
+					out = if brackets then brackets--; prev = char else ''
 				when char is ' '							# Space.
 					out = ''
 				when char is ','							# Comma.
 					out = if last_out isnt char then char else ""
 				else 										# Letter/digit/etc.
 					out = if prev in '\n' then char.toUpperCase()
-					else if prev in ', ' then ' ' + char
+					else if prev in '), ' and last_out isnt ' (' then ' ' + char
 					else char
 			last_out = out if out # Saving last output.
 			prev = char	# Saving previous letter.
