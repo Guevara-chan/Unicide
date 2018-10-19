@@ -14,4 +14,4 @@ __Unicide__ was best tested with _Chrome 70_ and [Electron](https://electronjs.o
 Support for _Mozilla Firefox_, _Edge_ and mobile browsers is mostly established, except for minor ui disambiguation.  
 
 # ⋮Brief sampling of forced evolution⋮
-![image](https://user-images.githubusercontent.com/8768470/47207141-289f9380-d393-11e8-8c67-38a742d57818.png)
+![image](https://user-images.githubusercontent.com/8768470/47216590-24cd3a80-d3ae-11e8-878c-422da8366f1d.png)
