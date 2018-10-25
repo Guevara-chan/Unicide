@@ -23,10 +23,10 @@ class UI
 		for char in text
 			out	= ''
 			switch 
-				when char in '.?!'							# Dot/Exclamation/Question.
+				when char in '.?!;'							# Dot/Exclamation/Question.
 					out = if last_out isnt char then char else ''
 				when char in '\n'							# Line break.
-					out = (if last_out[0] in "\n.?!]" then "" else ".") + char
+					out = (if last_out[0] in "\n.?!;]" then "" else ".") + char
 				when char is '('							# Opening bracket.
 					brackets++
 					out = " " + char
